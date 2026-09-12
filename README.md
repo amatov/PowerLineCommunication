@@ -16,8 +16,6 @@ scripts expect but which are not included in this repository.
   probability and Gaussian complementary integral utilities.
 - `reports/` -- the COST Action 262 program document (Memorandum of
   Understanding).
-- Hardcoded absolute paths to the original author's machine are flagged
-  with a `% EDIT:` comment directly above them.
 - **License:** see [LICENSE](LICENSE) -- research/educational use.
 
 ## About
