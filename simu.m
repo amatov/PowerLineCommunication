@@ -123,6 +123,7 @@ C1=16/90*conv(e,o1);
 C2=20/110*conv(e,o2);
 %*****************
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\input.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N));
 fprintf(fid,'%12.8f',o0);
@@ -136,6 +137,7 @@ end
 O1=o1(k-1:N);
 
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\output1.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N-k+1));
 fprintf(fid,'%12.8f',O1);
@@ -149,6 +151,7 @@ end
 O2=o2(k-1:N);
 
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\output2.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N-k+1));
 fprintf(fid,'%12.8f',O2);
@@ -162,6 +165,7 @@ end
 C22=C2(k-1:N);
 
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\convooutput2.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N-k+1));
 fprintf(fid,'%12.8f',C22);
@@ -175,12 +179,14 @@ end
 C11=C1(k-1:N);
 
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\convooutput1.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N-k+1));
 fprintf(fid,'%12.8f',C11);
 fprintf(fid,' ]\n )\n)');
 fclose(fid);
 
+% EDIT: hardcoded absolute path to the original author's machine
 fid = fopen('D:\matlaba\convoinput.dat','w');
 fprintf(fid,'(Waveform\n (numDims 1)\n (size %d)\n (dim 1\n  (extent 0 1.000000000000001E-006)\n )\n (data \n [',(N-k+1));
 fprintf(fid,'%12.8f',C0);

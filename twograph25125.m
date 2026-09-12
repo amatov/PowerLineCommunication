@@ -246,6 +246,7 @@ title('Step Response');
 %Printout Voltage in function of time at a special place 
 figure(4);
 plot(linspace(0,0.000001,N),mymatrix3(:,1),'b');% entrance
+% EDIT: hardcoded absolute path to the original author's machine
 [a,b,c,d]=textread('D:\MATLABa\50bignewY12.5_25_2.txt','%f %f %f %f');
 hold on;
 plot(a,b,'r');
