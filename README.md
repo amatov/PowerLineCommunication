@@ -1,4 +1,4 @@
-## PowerLineCommunication
+## Power Line Communication
 
 The Matlab code I wrote in the lab of Pierre-Gérard Fontolliet (Telecommunications Laboratory) at the EPFL.
 
