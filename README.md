@@ -24,7 +24,7 @@ scripts expect but which are not included in this repository.
 
 ## About
 
-My work on modeling transmission characteristics that deal with a very complicated medium that mixes the hostile behaviour of a power-line with that of a communication channel, for the publication:
+My work on modeling the transmission characteristics of power-line communication channels, a medium that combines the hostile behaviour of a power line with that of a communication channel, for the publication:
 
 Alexandre Matov "Measurements and Modeling of Power Line Channel at High Frequencies" (2001)
 
