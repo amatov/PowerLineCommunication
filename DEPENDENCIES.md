@@ -1,6 +1,6 @@
 # Dependencies
 
-No MATLAB toolbox is required. The scripts use only core MATLAB
+No Matlab toolbox is required. The scripts use only core Matlab
 functions (`erfc`, `textread`, `fopen`/`fprintf`, and basic array/plot
 operations).
 

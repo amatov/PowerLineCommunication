@@ -3,7 +3,7 @@
 ## Quick start
 
 This repository implements transmission-characteristic and error-
-probability modeling for power-line communication channels in MATLAB.
+probability modeling for power-line communication channels in Matlab.
 See [DEPENDENCIES.md](DEPENDENCIES.md) for the input data files some
 scripts expect but which are not included in this repository.
 
